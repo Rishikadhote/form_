@@ -54,10 +54,8 @@ function validateForm() {
     }
 
     if (isValid) {
-        // Show Happy New Year message after successful form submission
-        const messageDiv = document.getElementById("message");
-        messageDiv.innerHTML = "<h2>Happy New Year!</h2>";
-
+        // Redirect to new page with Happy New Year message
+        window.location.href = "new.html";
     }
 
     return isValid;
