@@ -58,8 +58,6 @@ function validateForm() {
         const messageDiv = document.getElementById("message");
         messageDiv.innerHTML = "<h2>Happy New Year!</h2>";
 
-        // Optionally reset the form
-        document.getElementById("myForm").reset();
     }
 
     return isValid;
